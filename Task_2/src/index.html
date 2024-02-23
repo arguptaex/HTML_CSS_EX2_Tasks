@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <script
+      src="https://kit.fontawesome.com/83531bad7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>EX2 Task 2</title>
+  </head>
+  <body>
+    <header id="header" class="">
+      <div class="container">
+        <div class="header-line-one">
+          <a>Follow</a>
+          <div class="social-handles">
+            <a class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-pinterest"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+          <a>SIGN IN / REGISTER | WARRANTY</a>
+        </div>
+        <div class="logo-section">
+          <div class="company-logo">
+            <img src="../Public/img/company_logo.png" alt="" />
+          </div>
+
+          <div class="customer-support">
+            <img src="../Public/img/april.jpg" alt="" />
+            <a href="#">HAVE QUESTIONS?ASK APRIL</a>
+            <div class="green-triangle">1</div>
+          </div>
+
+          <div class="social-handles">
+            <a class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-pinterest"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+          <button class="menu-btn" onclick="toggleHeader()">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </div>
+        <!-- <div class="navbar"> -->
+        <nav class="navbar">
+          <div class="customer-support">
+            <img src="../Public/img/april.jpg" alt="" />
+            <a href="#">HAVE QUESTIONS?ASK APRIL</a>
+          </div>
+          <ul>
+            <li><a href="#">LOCATIONS</a></li>
+            <li><a href="#">AVAILABLE HOMES</a></li>
+            <li><a href="#">FLOORPLANS</a></li>
+            <li><a href="#">VIRTUAL TOOLS</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">TESTIMONIALS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">PAYMENT PORTAL</a></li>
+          </ul>
+        </nav>
+        <!-- </div> -->
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <img src="../Public/img/hero_section.jpg" alt="" />
+      </section>
+      <section class="working">
+        <div class="work grid-container">
+          <div class="work-info upper-info img-info">
+            <img src="../Public/img/ai_photo_one.png" alt="" />
+          </div>
+          <div class="work-info upper-info first-info">
+            <h1>ARTIFICIAL NEURAL NETWORKS</h1>
+            <p>
+              Neural network based solutions including Densely Connected Neural
+              Networks (DNNs), Convolutional Neural Networks (CNNs), and
+              Recurrent Neural Networks (RNNs) to power advanced intelligence.
+            </p>
+          </div>
+          <div class="work-info img-info">
+            <img src="../Public/img/ai_photo_two.png" alt="" />
+          </div>
+          <div class="work-info">
+            <h1>RECOMMENDED SYSTEMS</h1>
+            <p>
+              Enable personalized recommendations for your customers by
+              monitoring how they use your products both implicitly and
+              expilicitly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ai-tagging">
+        <div class="grid-container assistance">
+          <div class="head-text">AI-Assisted Tagging</div>
+          <div class="para-text">
+            Using Deep Learning, we train models to identify products,
+            categorize them, and generate highly-structured tags to populate
+            your catalog. This makes it easier for you or your customers to
+            filter and find items, keep product information easily accessible,
+            and quickly distribute product feeds through different channels.
+          </div>
+          <div class="test-products">
+            <div class="product">
+              <div class="categories">
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+              </div>
+              <div class="product-img first-prod">
+                <img src="../Public/img/dress.png" alt="" />
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <img src="../Public/img/nail.png" alt="" />
+              </div>
+              <div class="categories">
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+                <span class="category">Dress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-services">
+        <div class="grid-container services">
+          <div class="service-brief">
+            <h1>Our Services</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+              rem!
+            </p>
+            <div class="underscore"></div>
+          </div>
+          <div class="sec-one brief-container">
+            <div class="service-details box-one">
+              <span><i class="fa-solid fa-book"></i> </span>
+              <h1>25+ Multiple Languages</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                a saepe quasi adipisci.
+              </p>
+              <a href="">Read More...</a>
+            </div>
+          </div>
+          <div class="sec-two grid-container">
+            <div class="service-details box-two">
+              <span>
+                <!-- <i class="fa-solid fa-books"></i> -->
+                <i class="fa-solid fa-layer-group"></i>
+              </span>
+              <h1>32+ Categories Available</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                a saepe quasi adipisci.
+              </p>
+              <a href="">Read More...</a>
+            </div>
+            <div class="service-details box-three">
+              <span>
+                <i class="fa-brands fa-instagram"></i>+<i
+                  class="fa-brands fa-facebook"
+                ></i>
+              </span>
+              <h1>On Social Networks</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                a saepe quasi adipisci.
+              </p>
+              <a href="">Read More...</a>
+            </div>
+          </div>
+          <div class="sec-one">
+            <div class="service-details box-four">
+              <span>
+                <i class="fa-solid fa-user"></i>
+              </span>
+              <h1>Full Customer Satisfaction</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                a saepe quasi adipisci.
+              </p>
+              <a href="">Read More...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="membership">
+        <div class="container subscription">
+          <h1 class="section-heading">Membership</h1>
+          <div class="grid-container available-plans">
+            <div class="plan grid-container">
+              <div
+                class="img-bg"
+                style="
+                  background-image: linear-gradient(
+                      rgba(34, 34, 34, 0.599),
+                      rgba(34, 34, 34, 0.6)
+                    ),
+                    url(../Public/img/plan_one.jpg);
+                "
+              >
+                <h1>Day Pass</h1>
+                <h2>Give it a Try</h2>
+              </div>
+
+              <div class="plan-info grid-container">
+                <div class="price"><span>$9</span> Per Day</div>
+                <div class="features grid-container">
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>Day Access Only</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>Unlimited SuperFast
+                    Wi-Fi</span
+                  >
+                  <span><ion-icon name="checkmark"></ion-icon>No Lockers</span>
+                </div>
+                <button class="book-plan-button">BOOK NOW</button>
+              </div>
+            </div>
+            <div class="plan grid-container">
+              <div
+                class="img-bg"
+                style="
+                  background-image: linear-gradient(
+                      rgba(34, 34, 34, 0.599),
+                      rgba(34, 34, 34, 0.6)
+                    ),
+                    url(../Public/img/plan_two.jpg);
+                "
+              >
+                <h1>Shared Desk</h1>
+                <h2>Economical but Flexible</h2>
+              </div>
+
+              <div class="plan-info grid-container">
+                <div class="price"><span>$99</span> monthly</div>
+                <div class="features grid-container">
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>8am to 8pm
+                    Access</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>100 hours of
+                    SuperFast Wi-Fi</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>Lockers access</span
+                  >
+                  <span><ion-icon name="checkmark"></ion-icon>No Printers</span>
+                </div>
+                <button class="book-plan-button">BOOK NOW</button>
+              </div>
+            </div>
+            <div class="plan grid-container">
+              <div
+                class="img-bg"
+                style="
+                  background-image: linear-gradient(
+                      rgba(34, 34, 34, 0.599),
+                      rgba(34, 34, 34, 0.6)
+                    ),
+                    url(../Public/img/plan_three.jpg);
+                "
+              >
+                <h1>Flexible Desk</h1>
+                <h2>Any Desk, Any chair</h2>
+              </div>
+
+              <div class="plan-info grid-container">
+                <div class="price"><span>$149</span> monthly</div>
+                <div class="features grid-container">
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>200 Hours of WIFI per
+                    Month</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>lockers Access</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>50 pages
+                    Printers</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>5hrs Skype
+                    Booth</span
+                  >
+                  <span
+                    ><ion-icon name="checkmark"></ion-icon>Mailing Address</span
+                  >
+                </div>
+                <button class="book-plan-button">BOOK NOW</button>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container foot">
+        <div class="sec">
+          <div class="copyright">
+            Copyrights &#169; 2020 All rights Reserved by Canvas Inc.
+          </div>
+          <div class="policies">
+            <a href="">Terms of Use</a>
+            /
+            <a href="">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sec">
+          <a href="">About</a>
+          /
+          <a href="">Features</a>
+          /
+          <a href="">FAQs</a>
+          /
+          <a href="">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
