@@ -62,31 +62,22 @@ html {
 
 .logo-section {
   display: flex;
-  /* grid-template-columns: repeat(2, 1fr); */
   justify-content: space-between;
   align-items: center;
-  /* padding: 10rem; */
 }
 
 .logo-section .customer-support {
   display: none;
   position: relative;
-  /* flex-grow: 1; */
-  /* max-width: 30%; */
-  /* display: grid; */
   justify-content: center;
   grid-template-columns: 20% 70% 10%;
-  /* border: 1px solid red; */
-  /* max-width: 100%; */
   box-sizing: border-box;
-  /* padding: 0 5rem; */
 }
 
 .company-logo {
   display: flex;
   justify-content: flex-start;
   padding: 2rem;
-  /* margin: 2rem 1rem; */
 }
 
 .company-logo img {
@@ -94,33 +85,19 @@ html {
 }
 .logo-section .customer-support a {
   display: none;
-  /* border: 1px solid red; */
   flex-grow: 2;
   text-align: center;
   background-color: green;
-
   font-size: 2.4rem;
 }
 .logo-section .customer-support img {
   display: none;
-  /* border: 1px solid red; */
-  max-width: 100%;
 }
 
 .logo-section .social-handles {
   display: none;
 }
 
-.green-triangle {
-  position: absolute;
-  background-color: green;
-  z-index: -1;
-  width: 14%;
-  height: 70%;
-  top: 1.3em;
-  right: 1.4em;
-  transform: rotate(45deg);
-}
 /* ........................Mobile menu ...............  */
 .menu-btn {
   border: none;
@@ -146,14 +123,11 @@ html {
 /* ...............................................................  */
 
 .navbar {
-  /* z-index: 2; */
   position: absolute;
-  /* border: 1px solid red; */
   width: 100%;
   top: 0;
   left: 0;
   height: 50vh;
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,8 +136,6 @@ html {
   opacity: 0;
 }
 .navbar ul {
-  /* flex-grow: 5; */
-  /* border: 1px solid red; */
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -181,16 +153,12 @@ html {
   color: #838382;
 }
 .navbar .customer-support {
-  /* flex-grow: 1; */
   position: relative;
-  /* flex-grow: 1; */
   max-width: 40%;
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: 30% 70%;
-  border: 1px solid red;
-  /* max-width: 100%; */
   text-align: center;
   box-sizing: border-box;
   background-color: green;
@@ -217,10 +185,7 @@ html {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 .img-info {
@@ -273,14 +238,9 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  /* align-items: center; */
-  /* border: 1px solid rgb(221, 28, 214); */
-
   justify-content: center;
-  /* margin: 5rem; */
 }
 .test-products {
-  /* border: 1px solid rgb(221, 28, 214); */
   padding: 2rem;
 }
 
@@ -294,26 +254,21 @@ img {
 .categories {
   order: 2;
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: flex-start; */
 }
 .categories .category {
   font-size: 1.4rem;
   margin: 1rem 1rem;
   padding: 1rem 2rem;
   font-weight: 400;
-  /* border: 1px solid aqua; */
   box-shadow: 0 0 10px 1px #d5d2d2;
-
   background-color: #fff;
   border-radius: 25px;
 }
 
 .product-img {
   background-color: #fff;
-  /* border: 1px solid black; */
   flex-grow: 0;
   max-width: 80%;
   border-radius: 25px;

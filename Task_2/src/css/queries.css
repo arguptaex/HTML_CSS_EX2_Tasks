@@ -3,81 +3,31 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-
-    /* border: 1px solid aqua; */
-
-    /* align-items: flex-end; */
   }
 
   /* ============================================================ */
   /* HEADER */
   /* ============================================================ */
   .header-line-one {
-    display: flex;
     justify-content: flex-end;
-    /* margin: 1rem 1rem; */
-    padding: 0.5rem 1rem;
-    background-color: #31446f;
-    align-items: center;
   }
 
   .header-line-one a,
   .social-handles a {
-    display: flex;
-    align-items: center;
     padding: 0.5rem 0.5rem;
-    margin: 0 0.5rem;
     font-size: 1.3rem;
-    text-decoration: None;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .social-handles {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .icon {
-    border: 1px solid green;
-    border-radius: 50%;
   }
 
   .social-handles ion-icon {
-    color: green;
     font-size: 2rem;
-  }
-  /* 
-    .social-handles a {
-      display: flex;
-      align-items: center;
-    } */
-
-  .logo-section {
-    display: flex;
-    /* grid-template-columns: repeat(3, 1fr); */
-    justify-content: space-between;
-    align-items: center;
-    /* padding: 10rem; */
   }
 
   .logo-section .customer-support {
-    position: relative;
-    /* flex-grow: 1; */
-    /* max-width: 30%; */
     display: grid;
-    justify-content: center;
-    grid-template-columns: 20% 70% 10%;
-    /* border: 1px solid red; */
-    /* max-width: 100%; */
-    box-sizing: border-box;
-    /* padding: 0 5rem; */
   }
 
   .company-logo {
-    display: flex;
     justify-content: center;
-    /* padding: 2rem; */
     margin: 0;
   }
 
@@ -85,17 +35,12 @@
     max-width: 80%;
   }
   .logo-section .customer-support a {
-    /* border: 1px solid red; */
     display: block;
     flex-grow: 2;
-    text-align: center;
-    background-color: green;
-
     font-size: 2.4rem;
   }
   .logo-section .customer-support img {
     display: block;
-    /* border: 1px solid red; */
     max-width: 100%;
   }
 
@@ -116,16 +61,7 @@
   }
   /* ................Menu button........................ */
   .menu-btn {
-    border: none;
-    background: none;
-    cursor: pointer;
     display: None;
-  }
-
-  .icon-mobile-nav {
-    height: 4.8rem;
-    width: 4.8rem;
-    color: #333;
   }
 
   .icon-mobile-nav[name="close-outline"] {
@@ -137,13 +73,10 @@
   .navbar {
     position: relative;
     height: auto;
-    /* z-index: 0; */
-    /* background-color: red; */
     display: block;
     opacity: 1;
   }
   .navbar ul {
-    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -172,12 +105,9 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* padding: 5rem 5rem; */
-    /* gap: 0 4rem; */
   }
   .work-info {
     padding: 10rem;
-    /* border: 1px solid red; */
     text-align: left;
   }
 
@@ -200,16 +130,11 @@
 
   .work-info h1::after {
     content: "";
-
     width: 1.2rem;
     padding: 0.6rem;
     display: block;
     background-color: #ff5395;
     border-radius: 100px 100px 0 0;
-  }
-  .work-info p {
-    font-size: 1.6rem;
-    line-height: 1.5;
   }
 
   .work-info img {
@@ -220,24 +145,9 @@
   /* AI ASSISTED*/
   /* ================================================================ */
 
-  .ai-tagging {
-    background-color: #f1f5ff;
-    text-align: center;
-  }
   .assistance {
     grid-template-columns: 1fr;
     max-width: 90%;
-    margin: auto;
-    padding: 3rem 0;
-    gap: 4rem;
-  }
-
-  .head-text {
-    font-size: 3rem;
-  }
-
-  .para-text {
-    font-size: 1.6rem;
   }
 
   .test-products,
@@ -260,31 +170,18 @@
     order: 2;
   }
   .categories {
-    /* order: 2; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: flex-start; */
   }
   .categories .category {
     font-size: 1.4rem;
-    /* margin: 0 2rem 2.8rem 2rem; */
-    /* padding: 1rem 3.8rem; */
     font-weight: 400;
-
-    box-shadow: 0 0 10px 1px #d5d2d2;
-
-    background-color: #fff;
-    border-radius: 25px;
   }
 
   .product-img {
-    background-color: #fff;
     flex-grow: 1;
-    /* border: 1px solid black; */
-    width: 100%;
-    border-radius: 25px;
-    box-shadow: 0 0 10px 1px #d5d2d2;
+    max-width: 100%;
   }
   .product-img img {
     max-width: 80%;
